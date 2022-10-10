@@ -97,3 +97,36 @@ main div {
   border-radius: 6px;
   margin-left: 5px;
 }
+.job-cags {
+  width: 100vw;
+  margin-top: 150px;
+  margin-left: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.grid-cags {
+  width: 60%;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  row-gap: 10px;
+}
+.grid-cags div {
+  border: 2px solid lightgray;
+  box-shadow: 0px 3px 6px lightgray;
+  width: 160px;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.grid-cags div p {
+  text-align: center;
+  padding-top: 10px;
+}
+.browse-cags {
+  width: 40px;
+  width: 40px;
+}
