@@ -146,6 +146,9 @@ main div {
   display: grid;
   grid-template-columns: auto auto auto auto;
   column-gap: 3px;
+  width: 80vw;
+  justify-content: center;
+  margin-left: 30px;
 }
 .circle-img {
   background-color: rgba(137, 43, 226, 0.4);
@@ -166,4 +169,34 @@ main div {
 }
 p {
   margin: 0;
+}
+.carousel .carousel-indicators {
+  position: relative;
+  z-index: 300;
+}
+.carousel .carousel-indicators li {
+  width: 15px;
+  height: 15px;
+  position: relative;
+  top: 330px;
+  margin: 7px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.carousel .carousel-indicators li {
+  background-color: black;
+}
+
+.carousel .carousel-indicators li.active {
+  background-color: white;
+}
+.sr-only {
+  color: white;
+}
+.carousel-control-next {
+  height: 40px;
+  background-color: black;
+}
+.carousel-control-prev {
+  background-color: black;
 }
